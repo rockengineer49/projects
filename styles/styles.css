@@ -34,6 +34,7 @@ aside img{
     height: auto;
 }
 footer{
-    padding: 2px;
-
+    margin-top: 1px;
+    border-top: 1px solid #000;
+    text-align: center;
 }
