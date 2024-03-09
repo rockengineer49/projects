@@ -24,25 +24,36 @@ main img {
     border: 1px solid steelblue;
     padding: 2px;
     box-shadow: 0 0 30px gray;
+    float: right;
 }
 p {
     padding: 0;
 }
 aside{
-    width: 20rem;
-    margin: 1rem;
-    border: 1px solid rgba(0, 0, 0, 0.2);
-    padding: 1rem;
-    background-color: #eee;
-    color: #333;
+    width: 20em;
     text-align: center;
+    position: relative;
 }
 aside img{
     width: 200px;
     height: auto;
 }
+aside h2 {
+    position: absolute;
+    top: 30px;
+    left: 100px;
+}
 footer{
     margin-top: 1px;
     border-top: 1px solid #000;
     text-align: center;
+}
+/* CLass Selectors */
+.box {
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    background-color: plum;
+    color: #000;
+    
 }
