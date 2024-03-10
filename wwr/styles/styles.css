@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap'); */ */ */
 
 body {
-    font-family: var(--paragraph-font);
+    font-family: "Marker Felt", fantasy;
     max-width: 800px;
     padding: 20px;
 }
@@ -12,7 +12,7 @@ body {
     --accent2-color: #9BD5EE;
 
     --heading-font: 'Protest Revolution', serif;
-    --paragraph-font: Vollkorn, serif;
+    --paragraph-font: "Marker Felt", fantasy;
 
     --nav-background-color: #63C6B5;
     --nav-link-color: #2B5C54;
