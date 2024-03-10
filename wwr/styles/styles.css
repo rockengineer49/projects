@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap'); */ */ */
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 800px;
+    padding: 20px;
+}
+:root{
+    --primary-color: #2B5C54;
+    --secondary-color: #F5ECC9;
+    --accent1-color: #63C6B5;
+    --accent2-color: #9BD5EE;
+
+    --heading-font: 'Protest Revolution', serif;
+    --paragraph-font: Vollkorn, serif;
+
+    --nav-background-color: #63C6B5;
+    --nav-link-color: #2B5C54;
+    --nav-hover-link-color: #9BD5EE; 
+    --nav-hover-background-color: #63C6B5;
+}
+h1 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+    position: relative;
+    background-color: antiquewhite;
+    margin: 5px auto;
+    font-size: xxx-large;
+}
+h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+header {
+    padding: 20px;
+    background-color: var(--accent1-color);
+}
+p{
+    padding: 25px;
+    font: Vollkorn, serif;
+    color: var(--primary-color);
+}
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.stats {
+	position: relative;
+	top: 150px;
+	background: radial-gradient(#4567aa);
+	padding: 0%;
+	box-shadow: 0 0 100px #111;
+	opacity: 0.8;
+}
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+nav a {
+    display: block;
+    color: var(--nav-hover-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+}
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
