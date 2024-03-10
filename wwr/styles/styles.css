@@ -26,6 +26,7 @@ h1 {
     background-color: antiquewhite;
     margin: 5px auto;
     font-size: xxx-large;
+    text-align: center;
 }
 h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
@@ -37,8 +38,9 @@ header {
 }
 p{
     padding: 25px;
-    font: Vollkorn, serif;
+    font: Georgia;
     color: var(--primary-color);
+    font-size: larger;
 }
 .hero img {
     display: block;
