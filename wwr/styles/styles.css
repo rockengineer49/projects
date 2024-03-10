@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap'); */ */ */
+
 body {
-    font-family: "Marker Felt", fantasy;
+    font-family: "var(--paragraph-font)";
     max-width: 800px;
     padding: 20px;
 }
@@ -11,7 +12,7 @@ body {
     --accent2-color: #9BD5EE;
 
     --heading-font: 'Protest Revolution', serif;
-    --paragraph-font: "Marker Felt", fantasy;
+    --paragraph-font: Arial, Helvetica, sans-serif;
 
     --nav-background-color: #63C6B5;
     --nav-link-color: #2B5C54;
@@ -40,6 +41,7 @@ p {
     font: Georgia;
     color: var(--primary-color);
     font-size: larger;
+    font-family: var(--paragraph-font);
 }
 .hero img {
     display: block;
@@ -49,7 +51,7 @@ p {
 .stats {
 	position: relative;
 	top: 150px;
-	background: #F5ECC9;
+	background: var(--secondary-color);
 	padding: 0%;
 	box-shadow: 0 0 100px #111;
 	opacity: 0.8;
