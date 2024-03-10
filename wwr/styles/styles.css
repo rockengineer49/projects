@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap'); */ */ */
-
-:root{
+body {
+    font-family: "var(--paragraph-font)";
+    max-width: 800px;
+    padding: 20px;
+}
+:root {
     --primary-color: #2B5C54;
     --secondary-color: #F5ECC9;
     --accent1-color: #63C6B5;
@@ -13,11 +17,6 @@
     --nav-link-color: #2B5C54;
     --nav-hover-link-color: #9BD5EE; 
     --nav-hover-background-color: #63C6B5;
-}
-body {
-    font-family: "var(--paragraph-font)";
-    max-width: 800px;
-    padding: 20px;
 }
 h1 {
     font-family: var(--heading-font);
