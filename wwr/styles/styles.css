@@ -36,7 +36,7 @@ header {
     padding: 20px;
     background-color: var(--accent1-color);
 }
-p{
+p {
     padding: 25px;
     font: Georgia;
     color: var(--primary-color);
@@ -50,7 +50,7 @@ p{
 .stats {
 	position: relative;
 	top: 150px;
-	background: radial-gradient(#4567aa);
+	background: #F5ECC9;
 	padding: 0%;
 	box-shadow: 0 0 100px #111;
 	opacity: 0.8;
