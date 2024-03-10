@@ -23,7 +23,7 @@ h1 {
     font-family: var(--heading-font);
     color: var(--primary-color);
     position: relative;
-    background-color: antiquewhite;
+    background-color: var(--secondary-color);
     margin: 5px auto;
     font-size: xxx-large;
     text-align: center;
