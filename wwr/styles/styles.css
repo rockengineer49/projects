@@ -15,7 +15,7 @@ body {
 
     --nav-background-color: #63C6B5;
     --nav-link-color: #2B5C54;
-    --nav-hover-link-color: #9BD5EE; 
+    --nav-hover-link-color: #2B5C54; 
     --nav-hover-background-color: #F5ECC9;
 }
 h1 {
@@ -46,9 +46,20 @@ p {
     width: 100%;
     height: auto;
 }
+.statsh1 {
+	position: relative;
+	top: 90px;
+	background: var(--secondary-color);
+	padding: 0%;
+	box-shadow: 0 0 100px #111;
+	opacity: 0.8;
+}
+.stats img {
+    width="200"
+}
 .stats {
 	position: relative;
-	top: 150px;
+	top: 90px;
 	background: var(--secondary-color);
 	padding: 0%;
 	box-shadow: 0 0 100px #111;
