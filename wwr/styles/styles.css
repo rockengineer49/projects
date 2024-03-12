@@ -21,7 +21,6 @@ body {
 h1 {
     font-family: var(--heading-font);
     color: var(--primary-color);
-    position: relative;
     background-color: var(--secondary-color);
     margin: 5px auto;
     font-size: xxx-large;
@@ -41,29 +40,36 @@ p {
     font-size: larger;
     font-family: var(--paragraph-font);
 }
+a {
+    text-decoration: none;
+}
 .hero img {
     display: block;
     width: 100%;
     height: auto;
 }
-.statsh1 {
-	position: relative;
-	top: 90px;
-	background: var(--secondary-color);
-	padding: 0%;
+.hero div {
+    position: relative;
+}
+.hero h1 {
+    position: absolute;
+    background: var(--secondary-color);
+    padding: 0%;
 	box-shadow: 0 0 100px #111;
 	opacity: 0.8;
+    width: 100%;
 }
-.stats img {
-    width="200"
+.hero article {
+    position: absolute;
+    background: var(--secondary-color);
+    opacity: 0.8;
+    bottom: 45%;
+    right: 5%;
+    width: 300px;
 }
-.stats {
-	position: relative;
-	top: 90px;
-	background: var(--secondary-color);
-	padding: 0%;
-	box-shadow: 0 0 100px #111;
-	opacity: 0.8;
+.happy img {
+    width: 150px;
+    float: right;
 }
 nav {
     background-color: var(--nav-background-color);
@@ -75,9 +81,11 @@ nav a {
     color: var(--nav-hover-link-color);
     text-decoration: none;
     padding: 1rem;
+    text-decoration: none;
 }
 nav a:link, nav a:visited {
     color: var(--nav-link-color);
+    
 }
 nav a:hover {
     color: var(--nav-hover-link-color);
