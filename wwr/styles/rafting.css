@@ -94,14 +94,15 @@ nav a:hover {
     background: var(--secondary-color);
     opacity: 0.8;
     bottom: 50%;
-    float: left;
-    width: 300px;
+    left: 600px;
+    width: 410px;
     max-width: 900px;
 }
 .happy img {
     width: 150px;
     float: right;
     height: auto;
+  
 }
 
 /* main body */
