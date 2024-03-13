@@ -102,7 +102,6 @@ nav a:hover {
     width: 150px;
     float: right;
     height: auto;
-  
 }
 
 /* main body */
@@ -116,13 +115,6 @@ a {
     text-decoration: none;
 }
 
-/* bottom section - flex box */
-/*section {
-    display: flex;
-    flex-direction: row;
-    flex: 200px;
-}*/
-
 .flexbox-container {
     display: flex;
     justify-content: space-between;
@@ -131,9 +123,7 @@ a {
 }
 
 .flexbox-item {
-    min-height: 25px;
-    margin: 10px;
-    
+    margin: 10px; 
 }
 
 .flexbox-item-1 {
@@ -151,7 +141,7 @@ img {
 }
 
 footer {
-    max-width: 900px;
+    max-width: 1000px;
     align-items: center;
 }
 footer img {
