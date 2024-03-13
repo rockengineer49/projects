@@ -58,7 +58,7 @@ footer {
     text-align: center;
 }
 header, footer, .grid {
-    margin: 0px auto;
+    margin: 0 auto;
     max-width: 840px;
 }
 .grid {
@@ -75,7 +75,6 @@ div {
     margin: 1rem;
     border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 1rem;
-    background-color: rgb(73, 10, 73);
+    background-color: rgb(92, 78, 92);
     color: #000;
-    
 }
