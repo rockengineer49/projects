@@ -21,10 +21,7 @@ nav a {
 h1 {
     color: steelblue;
 }
-.grid {
-    display: grid;
-    align-items: center;
-}
+
 main{
     grid-column: 2/3;
 }
@@ -39,14 +36,14 @@ main img {
 p {
     padding: 0;
 }
-aside{
+aside {
     width: 20rem;
     text-align: center;
     position: relative;
     grid-column: 1/2;
     grid-row: 1/2;
 }
-aside img{
+aside img {
     width: 200px;
     height: auto;
 }
@@ -55,14 +52,18 @@ aside h2 {
     top: 30px;
     left: 100px;
 }
-footer{
+footer {
     margin-top: 1px;
     border-top: 1px solid #b4a5a5;
     text-align: center;
 }
-header, .grid, footer {
+header, footer, .grid {
     max-width: 840px;
     margin: 0px auto;
+}
+.grid {
+    display: grid;
+    align-items: center;
 }
 div {
     display: grid;
